@@ -12,4 +12,4 @@ class BubbleSort:
     testArray = [3, 7, 5, 9, 2]
     sortedArray = sort(testArray)
     for i in testArray:
-        print(i)
+        print(i)d
