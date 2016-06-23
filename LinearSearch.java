@@ -7,9 +7,7 @@ public class LinearSearch {
 		for(int i = 0; i < array.length; i++) {
 			if(array[i] == searchValue) {
 				values += searchValue;
-			}else {
 			}
-		}
 		return values;
 	}
 	
