@@ -9,6 +9,7 @@ class SelectionSort:
             temp = array[i]
             array[i] = array[min]
             array[min] = temp
+		return array
 
     testArray = [3, 7, 5, 9, 2]
     sortedArray = sort(testArray)
