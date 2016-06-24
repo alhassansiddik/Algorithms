@@ -13,5 +13,5 @@ class SelectionSort:
 
     testArray = [3, 7, 5, 9, 2]
     sortedArray = sort(testArray)
-    for i in testArray:
+    for i in sortedArray:
         print(i)
