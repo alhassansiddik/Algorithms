@@ -1,7 +1,7 @@
 # takes an array as input and returns a sorted array using selection sort algorithm
 class SelectionSort:
     def sort(array):
-        for i in range(dlen(array)):
+        for i in range(len(array)):
             min = i
             for j in range(i, len(array)):
                 if array[min] > array[j]:
