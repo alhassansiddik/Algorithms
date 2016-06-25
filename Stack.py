@@ -19,6 +19,7 @@ class Stack:
             self.first -= 1
             return temp
         else:
+			print("Stack is empty")
             return None
 
     def peek(self):
