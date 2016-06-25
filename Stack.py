@@ -25,7 +25,6 @@ class Stack:
     def peek(self):
         return self.stackArray[self.first]
 
-
 stack = Stack(2)
 stack.push("5")
 stack.push("2")
